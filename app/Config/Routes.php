@@ -34,6 +34,8 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', [HomeController::class, 'index'], ['as' => 'home']);
 
+service('auth')->routes($routes);
+
 // gyms
 $routes->group('gyms', static function ($routes) {
 

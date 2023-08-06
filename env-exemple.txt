@@ -11,6 +11,46 @@ CI_ENVIRONMENT = development
 app.baseURL = 'http://gyms.test/'
 app.indexPage = ''
 
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = development
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+
+app.baseURL = 'http://gyms.test/'
+app.indexPage = ''
+
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+database.default.hostname = localhost
+database.default.database = gyms
+database.default.username = root
+database.default.password = 
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
+
+
+#--------------------------------------------------------------------
+# E-mail
+#--------------------------------------------------------------------
+email.fromEmail = 'no-reply@gerenciee.com'
+email.fromName = 'Gerenciee'
+email.protocol = 'smtp'
+email.SMTPHost = 'sandbox.smtp.mailtrap.io'
+email.SMTPUser = ''
+email.SMTPPass = ''
+email.SMTPPort = 2525
+email.SMTPCrypto = ''
+email.mailType = 'html'
+
 
 #--------------------------------------------------------------------
 # DATABASE

@@ -13,4 +13,4 @@ Você deve criar um gerenciador de academia conforme os requisitos abaixo, desen
 -   Ter listas com possibilidade de CRUD - DONE!
 -   Listas com busca e paginação - DONE!
 -   Utilizar SESSION, POST e GET - DONE!
--   Criar uma API REST para os recursos criados - DONE! - http://gyms.test/api/gyms
+-   Criar uma API REST para os recursos criados - DONE! - http://exemple.com/api/gyms

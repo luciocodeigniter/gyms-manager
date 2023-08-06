@@ -73,7 +73,7 @@ class GymsController extends ResourceController
     }
 
     /**
-     * Add or update a model resource, from "posted" properties
+     * Update a model resource, from "posted" properties
      *
      * @param int|string|null $id
      *

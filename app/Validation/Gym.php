@@ -86,7 +86,7 @@ class Gym
                 'rules'  => "required|in_list[0,1]",
                 'errors' => [
                     'required' => 'Campo ativo é obrigatório',
-                    'in_list'  => 'Opção inválida',
+                    'in_list'  => 'Escolha 0 para inativo ou 1 para ativo',
                 ],
             ],
 

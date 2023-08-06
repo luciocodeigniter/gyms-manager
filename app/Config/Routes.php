@@ -45,6 +45,11 @@ $routes->group('gyms', static function ($routes) {
     $routes->delete('destroy/(:num)', [GymsController::class, 'destroy/$1'], ['as' => 'gyms.destroy']);
 });
 
+// gyms api
+$routes->group('api', ['namespace' => 'App\Controllers\API\V1'], function ($routes) {
+    $routes->resource('gyms', ['except' => 'new,edit', 'controller' => 'GymsController']);
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
